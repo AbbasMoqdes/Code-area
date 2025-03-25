@@ -1,0 +1,130 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.flexcol{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.liststyle{
+    list-style: none;
+
+}
+.liststyle img{
+    width: 24px;
+}
+.list{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sola{
+    font-size: 16px;
+}
+.satso{
+    font-weight: 700px;
+}
+.lib a{
+    text-decoration: none;
+    color: grey;
+}
+.invert{
+    filter: invert(1);
+}
+.grey{
+    background-color: #121212;
+}
+.arrow{
+    background-color: white;
+    border-radius: 50%;
+}
+.arrows{
+    padding:10px;
+}
+.sign{
+    background-color: transparent;
+    color: rgb(116, 116, 116);
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 60px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.sign:hover{
+    font-size: 16px;
+    color: white;
+}
+.log{
+    background-color: white;
+    border: none;
+    color: rgb(19, 19, 19);
+    border-radius: 20px;
+    height: 30px;
+    width: 60px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.log:hover{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+.button > div{
+    display: flex;
+    gap: 15px;
+}
+.button > *{
+    padding: 5px;
+}
+.playlist{
+}
+.playlist h2{
+padding: 5px 10px;
+    background-color: #222222;
+}
+.image{
+    position: relative;
+}
+
+.cardcontainer::-webkit-scrollbar {
+    width: 8px; 
+  }
+  
+  .cardcontainer::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  
+  .cardcontainer::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1); 
+    border-radius: 4px;
+  }
+  
+  .cardcontainer::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2); 
+  }
+
+.listsong::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    background: transparent; /* Transparent track */
+}
+
+.listsong::-webkit-scrollbar-thumb {
+    background: transparent; /* Transparent thumb by default */
+    border-radius: 4px; /* Rounded corners */
+    transition: background 0.3s ease; /* Smooth transition */
+}
+
+/* Show scrollbar on hover */
+.listsong:hover::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2); /* Light white thumb on hover */
+}
+
+.listsong:hover::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.4); /* Slightly brighter on hover */
+}
+.width{
+    width: 100px;
+}
