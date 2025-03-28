@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    width: 164px;
+    padding: 10px;
+}
+.Button{    
+    font-size: 18px;
+    height: 46px;
+    width: 44px;
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+.center{
+    text-align: center;
+}
+.flex{
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    margin: 5px 10px;
+}
