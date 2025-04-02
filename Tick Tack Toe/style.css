@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: rgb(136, 44, 255);
+}
+
+.nav ul li {
+    color: aliceblue;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: 58px;
+    font-size: 30px;
+
+}
+
+.maincontainer {
+    display: flex;
+    margin: 30px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+}
+
+.box {
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: Times, serif;
+}
+
+.bt {
+    border-top: none;
+}
+
+.bb {
+    border-bottom: none;
+}
+
+.bl {
+    border-left: none;
+}
+
+.br {
+    border-right: none;
+}
+#reset-btn:hover {
+    background-color: #555;
+}
+
+.winner {
+    background-color: #aaffaa;
+}
